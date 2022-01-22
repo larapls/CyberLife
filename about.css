@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=News+Cycle&display=swap');
+:root{
+    --primary-color:#738EA9;
+    --secondary-color: #000;
+}
+
+*{
+    margin: 0;
+    font-family: 'News Cycle', sans-serif;
+  }
+
+body{
+    background-image: url("background.png");
+    background-repeat:repeat;
+    font-family: 'News Cycle', sans-serif;
+   
+       
+}
+
+.menuheader{
+    height: 122px;
+    background-color: #738EA9;
+    display: flex;
+    margin: 0;
+    
+}
+
+.headerlogo{
+    height: 105px;
+    width: 100px;
+    margin-left: 30px;
+    padding: 10px;
+}
+
+ul{
+    list-style: none;
+    position: absolute;
+    display: flex;
+    padding: auto;
+    right:0;
+    margin-right:70px;
+    margin-top:55px;
+    
+}
+
+li a{
+    background-color: rgb(255, 255, 255);
+    margin-left: 35px;
+    padding: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    text-align: center;
+    text-decoration: none;
+    color: #000;
+    letter-spacing: 2px;
+}
+
+li a:hover{
+    background-color: rgb(255, 255, 255);
+    color: #738EA9;
+}
+
+
+
+h1.title{
+    text-align: center;
+    font-size:80px;
+    margin-top: 100px;
+    margin-bottom: 5px;
+  
+}
+
+.aboutus{
+    position: relative;
+    margin-bottom:30px ;
+    width:1260px;
+}
+
+.container{
+    width:1070px;
+    display: flex;
+    position: relative;
+    left:8%;
+    border-top: 1px solid #000;
+   padding-top:20px;
+}
+
+.parag{
+    width:700px;
+    margin-right:30px;
+}
+
+.kamski{
+    text-align: center;
+    font-size: 12px;
+    font-weight: bolder;
+}
+
+img.signature{
+    height:180px;
+    width:300px;
+    position: relative;
+    left:7%;
+
+}
+
+.top{
+    background-color: #738EA9;
+    position: fixed;
+    bottom: 10px;
+    float: right;
+    width: 50px;
+    font-size: 9px;
+    padding:5px;
+    text-align: center;
+    z-index: 1000px;
+}
+
+.top a{
+    text-decoration: none;
+    color:#fff;
+    font-size: 9px;
+    z-index: 1000px;
+    
+}
+
+.top:hover{
+    text-decoration: none;
+    background-color: #c2ccd6;
+    font-size: 9px;
+    padding:5px;
+    color:#738EA9;
+    z-index: 1000px;
+    
+    
+}
+
+.top a:hover{
+    text-decoration: none;
+    color:#000000;
+    background-color: #c2ccd6;
+    font-size: 9px;
+    z-index: 1000px;
+    
+}
+
+.cookies{
+    font-size: 7px;
+    letter-spacing: 3px;
+    margin-top:5px;
+}
+footer{
+    height: 60px;
+    background-color: #738EA9;
+    text-align: center;
+    position: relative;
+    padding-top: 10px;
+    color: #fff;
+    font-size: 12px;
+    letter-spacing: 2px;
+    font-weight: lighter;
+}
