@@ -13,12 +13,12 @@ body{
     background-image: url("background.png");
     background-repeat:repeat;
     font-family: 'News Cycle', sans-serif;
-   
+    font-size: 12px;
        
 }
 
 .menuheader{
-    height: 122px;
+    height: 80px;
     background-color: #738EA9;
     display: flex;
     margin: 0;
@@ -26,10 +26,10 @@ body{
 }
 
 .headerlogo{
-    height: 105px;
-    width: 100px;
+    height: 65px;
+    width: 60px;
     margin-left: 30px;
-    padding: 10px;
+    padding: 6px;
 }
 
 ul{
@@ -39,7 +39,8 @@ ul{
     padding: auto;
     right:0;
     margin-right:70px;
-    margin-top:55px;
+    margin-top:35px;
+    font-size: 10px;
     
 }
 
@@ -101,19 +102,20 @@ li a:hover{
     
 }
 
+
 .cookies{
     font-size: 7px;
     letter-spacing: 3px;
     margin-top:5px;
 }
 footer{
-    height: 60px;
+    height: 40px;
     background-color: #738EA9;
     text-align: center;
     position: relative;
-    padding-top: 10px;
+    padding-top: 5px;
     color: #fff;
-    font-size: 12px;
+    font-size: 10px;
     letter-spacing: 2px;
     font-weight: lighter;
 }
