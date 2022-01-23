@@ -10,7 +10,7 @@
   }
 
 body{
-    background-image: url("background.png");
+    background-image: url("background2.png");
     background-repeat:repeat;
     font-family: 'News Cycle', sans-serif;
     font-size: 12px;
@@ -61,6 +61,29 @@ li a:hover{
     color: #738EA9;
 }
 
+a {
+    position: relative;
+    color: #738EA9;
+  }
+
+a::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #4c6986;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out
+
+}
+
+a:hover::after{
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
 
 .top{
     background-color: #738EA9;

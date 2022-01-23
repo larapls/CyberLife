@@ -12,7 +12,7 @@
   }
 
 body{
-    background-image: url("background.png");
+    background-image: url("background2.png");
     background-repeat: no-repeat;
     font-family: 'News Cycle', sans-serif;
     font-size: 12px;
@@ -64,13 +64,53 @@ li a:hover{
 
 
 h1.toptitle{
-
     text-align: center;
     font-size:80px;
     margin-top: 70px;
     margin-bottom: 5px;
+    
+}
+
+h1.middletitle{
+    text-align: center;
+    font-size:80px;
+    margin-top: 70px;
+    margin-bottom: 50px;
+    background-color: var(--primary-color);
+    color: white;
   
 }
+a {
+    position: relative;
+    color: #738EA9;
+  }
+
+a::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #4c6986;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out
+
+}
+
+a:hover::after{
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+
+.ourandroids{
+    position: relative;
+    margin-bottom:60px ;
+    width:1260px;
+}
+
 
 .box{
     text-align: center;
@@ -84,6 +124,107 @@ h1.toptitle{
 .box p{
     text-align: justify;
 }
+
+.androidsforsale{
+    height:350px;
+    position: relative;
+}
+
+.salecontainer{
+    display: flex;
+    position: relative;
+    left:13%;
+    text-align: center; 
+    max-width: 1000px;
+}
+
+.highlightcontainer{
+    display: flex;
+    position: relative;
+    left:13%;
+    text-align: center; 
+    max-width: 1000px;
+
+}
+.highlightcontainer2{
+    display: flex;
+    position: relative;
+    left:13%;
+    text-align: center; 
+    max-width: 1000px;
+
+}
+
+.ad{
+    position: relative;
+    margin-left: 40px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.price{
+    background-color: #c2ccd6;
+    padding-top: 6px;
+    text-align: center;
+    text-decoration: none;
+    color: rgb(255, 0, 0);
+    top: 10%;
+    left:75%;
+    font-weight: bolder;
+    font-size: 15px;
+    font-family: 'News Cycle', sans-serif;
+    letter-spacing: 1px;
+    width:258px;
+    height:30px;
+    margin-bottom: 10px;
+
+}
+
+button.order{
+    background-color: #738EA9;
+    padding: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    width:259px;
+    text-align: center;
+    text-decoration: none;
+    border: 2px solid #738EA9;
+    color: rgb(255, 255, 255);
+    top: 10%;
+    font-size: 12px;
+    font-family: 'News Cycle', sans-serif;
+    letter-spacing: 1px;
+    display: inline-block;
+}
+
+button.order::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #233649;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out
+
+}
+
+button.order:hover::after{
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+
+.order:hover{
+    color:rgb(0, 0, 0);
+    background-color: #c2ccd6;
+    border: 2px solid #c2ccd6;
+
+}
+
+
 .cookies{
     font-size: 7px;
     letter-spacing: 3px;
