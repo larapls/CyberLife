@@ -85,45 +85,6 @@ a:hover::after{
     transform-origin: bottom left;
 }
 
-.top{
-    background-color: #738EA9;
-    position: fixed;
-    bottom: 10px;
-    float: right;
-    width: 50px;
-    font-size: 9px;
-    padding:5px;
-    text-align: center;
-    z-index: 1000px;
-}
-
-.top a{
-    text-decoration: none;
-    color:#fff;
-    font-size: 9px;
-    z-index: 1000px;
-    
-}
-
-.top:hover{
-    text-decoration: none;
-    background-color: #c2ccd6;
-    font-size: 9px;
-    padding:5px;
-    color:#738EA9;
-    z-index: 1000px;
-    
-    
-}
-
-.top a:hover{
-    text-decoration: none;
-    color:#000000;
-    background-color: #c2ccd6;
-    font-size: 9px;
-    z-index: 1000px;
-    
-}
 
 
 .cookies{
@@ -141,4 +102,73 @@ footer{
     font-size: 10px;
     letter-spacing: 2px;
     font-weight: lighter;
+}
+
+@media screen and (max-width: 360px) {
+
+.menuheader{
+    height: 155px;
+    background-color: #738EA9;
+    
+}
+
+.headerlogo{
+    height: 85px;
+    width: 85px;
+    position:relative;
+    left: 80%;
+    padding: 6px;
+}
+
+ul{
+  font-size: 11px;
+  position: relative;
+  left:-47%;
+  top:53%;
+}
+
+li a{
+    background-color: rgb(255, 255, 255);
+    margin-left: 19px;
+    padding:4px;
+    text-decoration: none;
+    color: #000;
+    letter-spacing: 2px;
+}
+
+li a:hover{
+    background-color: rgb(255, 255, 255);
+    color: #738EA9;
+}
+
+
+a::after{
+    display:none;
+
+}
+
+a:hover::after{
+    display:none;
+
+}
+
+  
+.cookies{
+    font-size: 10px;
+    letter-spacing: 3px;
+    margin-top:10px;
+}
+
+footer{
+    height: 80px;
+    background-color: #738EA9;
+    text-align: center;
+    position: relative;
+    padding-top: 10px;
+    color: #fff;
+    font-size: 10px;
+    letter-spacing: 2px;
+    font-weight: lighter;
+}
+
 }
