@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=News+Cycle&display=swap');
-
 :root{
     --primary-color:#738EA9;
     --secondary-color: #000;
@@ -7,22 +6,22 @@
 
 *{
     margin: 0;
-    padding: 0;
     font-family: 'News Cycle', sans-serif;
   }
 
 body{
     background-image: url("background.png");
-    background-repeat: no-repeat;
+    background-repeat:repeat;
     font-family: 'News Cycle', sans-serif;
     font-size: 12px;
-   
+       
 }
 
 .menuheader{
     height: 80px;
     background-color: #738EA9;
     display: flex;
+    margin: 0;
     
 }
 
@@ -62,16 +61,65 @@ li a:hover{
     color: #738EA9;
 }
 
-
 h1.toptitle{
 
     text-align: center;
     font-size:80px;
-    margin-top: 70px;
+    margin-top: 100px;
     margin-bottom: 5px;
   
 }
 
+h1.middletitle{
+    text-align: center;
+    font-size:80px;
+    margin-bottom: 0px;
+    margin-top:100px;
+    
+}
+
+.topline{
+    width:50%px;
+    position: relative;
+    text-align: center;
+}
+
+
+.ourandroids{
+    position: relative;
+    margin-bottom:60px ;
+   
+    width:1260px;
+}
+.andriodprof{
+    margin-top:70px;
+    position: relative;
+    width:1260px;
+}
+.colorpalette{
+    margin-top:5px;
+    position: relative;
+    left:87%;
+    width:150px;
+}
+
+h3.androidmodel{
+    margin-left: 0px;
+    font-size:30px;
+    font-style: normal;
+    line-height: 23px;
+    position: relative;
+    left:12%;
+    width:1000px;
+}
+h1.meetandroid{
+    font-size:70px;
+    margin-left: 0px;
+    line-height: 83px;
+   position: relative;
+   left:12%;
+     width:1000px;
+}
 .box{
     text-align: center;
     letter-spacing: 1px;
@@ -84,12 +132,53 @@ h1.toptitle{
 .box p{
     text-align: justify;
 }
+
+
+.top{
+    background-color: #738EA9;
+    position: fixed;
+    bottom: 10px;
+    float: right;
+    width: 50px;
+    font-size: 9px;
+    padding:5px;
+    text-align: center;
+    z-index: 1000px;
+}
+
+.top a{
+    text-decoration: none;
+    color:#fff;
+    font-size: 9px;
+    z-index: 1000px;
+    
+}
+
+.top:hover{
+    text-decoration: none;
+    background-color: #c2ccd6;
+    font-size: 9px;
+    padding:5px;
+    color:#738EA9;
+    z-index: 1000px;
+    
+    
+}
+
+.top a:hover{
+    text-decoration: none;
+    color:#ffffff;
+    background-color: #c2ccd6;
+    font-size: 9px;
+    z-index: 1000px;
+    
+}
+
 .cookies{
     font-size: 7px;
     letter-spacing: 3px;
     margin-top:5px;
 }
-
 footer{
     height: 40px;
     background-color: #738EA9;
