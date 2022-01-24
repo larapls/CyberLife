@@ -188,14 +188,14 @@ footer{
     .menuheader{
         height: 155px;
         background-color: #738EA9;
-        
+     
     }
     
     .headerlogo{
         height: 85px;
         width: 85px;
         position:relative;
-        left: 80%;
+        left: 76%;
         padding: 6px;
     }
     
@@ -236,7 +236,7 @@ footer{
         height:204px;
         left: 14%;;
         position: relative;
-       left:24%;
+       left:22%;
        top:10%;
       
     }
@@ -247,7 +247,7 @@ footer{
         font-size: 30px;
         top:12%;
         line-height: 1;
-        left:-7%;
+        left:-10%;
         font-weight: lighter;
         letter-spacing: 1px;
       
@@ -259,9 +259,10 @@ footer{
        text-align: center;
         font-size: 30px;
         top: 13%;
-        left:2%;
+        left:10%;
         font-family: 'Gotham Light', sans-serif;
         text-shadow: -3px -3px #738EA9;
+        width:300px;
         
       
     }
