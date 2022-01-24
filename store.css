@@ -12,7 +12,7 @@
   }
 
 body{
-    background-image: url("background2.png");
+    background-image: url("./pics/background2.png");
     background-repeat: repeat;
     font-family: 'News Cycle', sans-serif;
     font-size: 12px;
@@ -23,6 +23,7 @@ body{
     height: 80px;
     background-color: #738EA9;
     display: flex;
+    
     
 }
 
@@ -72,6 +73,7 @@ h1.toptitle{
 }
 
 h1.middletitle{
+    opacity: 0.50;
     text-align: center;
     font-size:80px;
     margin-top: 70px;
