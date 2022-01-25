@@ -49,7 +49,6 @@ ul{
     width:810px;
     height:20px;
     
-    
 }
 
 li a{
@@ -65,8 +64,7 @@ li a{
     letter-spacing: 2px;
     margin-left: 28px;;
     margin-right: auto;
-   
-   
+    
 }
 
 li a:hover{
@@ -109,7 +107,7 @@ main{
     margin-right: auto;
     margin-top:auto;
     width:1250px;
-   
+  
 }
 
 .mainlogo{
@@ -117,7 +115,7 @@ main{
     height:305px;
     position: relative;
   margin-top: 160px;
-    
+
   
 }
 
@@ -132,6 +130,7 @@ h1{
     font-weight: lighter;
     letter-spacing: 1px;
    line-height: 70px;
+   
   
 }
 
@@ -165,14 +164,13 @@ h2{
     font-weight:bolder;
     font-family: 'News Cycle', sans-serif;
     letter-spacing: 1px;
-   
+    
   
 }
 
 .btn a{
     text-decoration: none;
     color:rgb(255, 255, 255);
-
 
 }
 
