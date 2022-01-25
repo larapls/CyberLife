@@ -461,3 +461,252 @@ footer{
         font-weight: lighter;
     }
 }
+
+@media screen and (max-width: 1024px) {
+
+body{
+    background-image: url("./pics/background2.png");
+    background-repeat: repeat;
+    font-family: 'News Cycle', sans-serif;
+    font-size: 18px;
+   
+}
+
+.menuheader{
+    height: 130px;
+    background-color: #738EA9;
+    display: flex;
+    
+}
+
+.headerlogo{
+    height: 65px;
+    width: 60px;
+    margin-left: 40px;
+    padding: 6px;
+    margin-top:28px;
+}
+
+ul{
+    list-style: none;
+    position: absolute;
+    display: flex;
+    padding: auto;
+    margin-right:70px;
+    margin-top:65px;
+    font-size: 10px;
+    
+}
+
+li a{
+    background-color: rgb(255, 255, 255);
+    margin-left: 35px;
+    padding: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    text-align: center;
+    text-decoration: none;
+    color: #000;
+    letter-spacing: 2px;
+}
+
+li a:hover{
+    background-color: rgb(255, 255, 255);
+    color: #738EA9;
+}
+
+
+
+h1.toptitle{
+    text-align: center;
+    font-size:80px;
+    margin-top: 70px;
+    margin-bottom: 0px;
+    line-height: 90px;
+   
+}
+
+hr.topline{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:50%;
+    margin-bottom:20px;
+}
+
+h1.middletitle{
+    opacity: 0.50;
+    text-align: center;
+    font-size:80px;
+    margin-top: 70px;
+    margin-bottom: 50px;
+    background-color: var(--primary-color);
+    color: white;
+    width:1024px;
+  
+}
+a {
+    position: relative;
+    color: #738EA9;
+  }
+
+a::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #4c6986;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out
+
+}
+
+a:hover::after{
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+
+.ourandroids{
+    margin-bottom:60px ;
+    width:1024px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.box{
+    text-align: center;
+    letter-spacing: 1px;
+    position: relative;
+    left:10%;
+    margin-top:30px;
+    width:800px;
+}
+
+.box p{
+    text-align: justify;
+}
+
+.androidsforsale{
+    height:350px;
+    position: relative;
+}
+
+.salecontainer{
+    display: flex;
+    position: relative;
+    left:3%;
+    text-align: center; 
+    max-width: 900px;
+}
+
+.highlightcontainer{
+    display: flex;
+    position: relative;
+    left:3%;
+    text-align: center; 
+    max-width: 900px;
+
+}
+.highlightcontainer2{
+    display: flex;
+    position: relative;
+    left:3%;
+    text-align: center; 
+    max-width: 900px;
+}
+
+.ad{
+    position: relative;
+    margin-left: 40px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.price{
+    background-color:rgb(235, 235, 235);
+    padding-top: 6px;
+    text-align: center;
+    text-decoration: none;
+    color: rgb(167, 25, 25);
+    top: 10%;
+    left:75%;
+    font-weight: bolder;
+    font-size: 18px;
+    font-family: 'News Cycle', sans-serif;
+    letter-spacing: 1px;
+    width:258px;
+    height:30px;
+    margin-bottom: 10px;
+
+}
+
+button.order{
+    background-color: #738EA9;
+    padding: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    width:259px;
+    text-align: center;
+    text-decoration: none;
+    border: 2px solid #738EA9;
+    color: rgb(255, 255, 255);
+    top: 10%;
+    font-size: 18px;
+    font-family: 'News Cycle', sans-serif;
+    letter-spacing: 1px;
+    display: inline-block;
+}
+
+button.order::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #233649;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out
+
+}
+
+button.order:hover::after{
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+
+.order:hover{
+    color:rgb(0, 0, 0);
+    background-color: #c2ccd6;
+    border: 2px solid #c2ccd6;
+
+}
+
+
+.cookies{
+    font-size: 7px;
+    letter-spacing: 3px;
+    margin-top:5px;
+}
+
+footer{
+    height: 40px;
+    background-color: #738EA9;
+    text-align: center;
+    position: relative;
+    padding-top: 5px;
+    color: #fff;
+    font-size: 10px;
+    letter-spacing: 2px;
+    font-weight: lighter;
+}
+
+}

@@ -339,3 +339,136 @@ footer{
 }
 
 }
+
+@media screen and (max-width: 1024px) {
+ 
+    body{
+        background-image: url("./pics/background2.png");
+        background-repeat: repeat;
+        font-family: 'News Cycle', sans-serif;
+    }
+    
+    .menuheader{
+        height: 130px;
+        background-color: #738EA9;
+        display: flex;
+        
+    }
+    
+    .headerlogo{
+        height: 65px;
+        width: 60px;
+        margin-left: 40px;
+        padding: 6px;
+        margin-top:28px;
+    }
+    
+    ul{
+        list-style: none;
+        position: absolute;
+        display: flex;
+        padding: auto;
+        margin-right:70px;
+        margin-top:65px;
+        font-size: 10px;
+        
+    }
+    
+    li a{
+        background-color: rgb(255, 255, 255);
+        margin-left: 35px;
+        padding: 10px;
+        padding-left: 40px;
+        padding-right: 40px;
+        text-align: center;
+        text-decoration: none;
+        color: #000;
+        letter-spacing: 2px;
+    }
+    
+    li a:hover{
+        background-color: rgb(255, 255, 255);
+        color: #738EA9;
+    }
+
+    main{
+        height:934px;
+    }
+
+    h1.toptitle{
+        text-align: center;
+        font-size:80px;
+        margin-top: 250px;
+        margin-bottom: 5px;
+      
+    }
+    
+    hr.topline{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width:50%;
+    }
+    
+    .callcontainer{
+        display: flex;
+        position: relative;
+        left:25%;
+        
+        width:600px;
+    }
+    
+    p.callus{
+        font-size:50px;
+        position: relative;
+        margin-top:20px;
+    }
+    
+    p.world{
+        position: relative;
+        left:35%;
+        color: rgb(236, 0, 0);
+        top:0%;
+        width:150px;
+    }
+    
+    h2{
+        font-size:50px;
+        margin-left:40px;
+        position: relative;
+        margin-top:20px;
+        
+    
+    }
+    
+    .box{
+        width:400px;
+        position: relative;
+        left:25%;
+        margin-bottom:50px;
+       
+    }
+    
+    
+    .visitcontainer{
+        display: flex;
+        position: relative;
+        left:25%;
+       
+        width:600px;
+    }
+    
+    img.call{
+        height:110px;
+       
+    }
+    
+    p.visitus{
+        font-size:25px;
+        position: relative;
+        margin-top:50px;
+        font-weight: bolder;
+    
+    }
+    
+}
