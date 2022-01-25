@@ -37,31 +37,66 @@ body{
 ul{
     list-style: none;
     position: absolute;
+    margin-left: 50%;
+    margin-right: auto;
+    margin-top: 5px;
     display: flex;
-    padding: auto;
-    right:0;
-    margin-right:70px;
-    margin-top:35px;
-    font-size: 10px;
+    padding: 30px;
+    padding-right:0px;
+    margin-top:0px;
+    width:810px;
+    height:20px;
+    
     
 }
 
 li a{
     background-color: rgb(255, 255, 255);
-    margin-left: 35px;
-    padding: 10px;
     padding-left: 40px;
     padding-right: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     text-align: center;
     text-decoration: none;
+    font-size: 10px;
     color: #000;
     letter-spacing: 2px;
+    margin-left: 28px;;
+    margin-right: auto;
+   
+   
 }
 
 li a:hover{
     background-color: rgb(255, 255, 255);
     color: #738EA9;
 }
+
+a {
+    position: relative;
+    color: #738EA9;
+  }
+
+a::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #4c6986;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out
+
+}
+
+a:hover::after{
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+
 
 
 h1.toptitle{
@@ -128,10 +163,10 @@ a:hover::after{
 .box{
     text-align: center;
     letter-spacing: 1px;
-    position: relative;
-    left:12%;
+    margin-left: auto;
+    margin-right: auto;
     margin-top:30px;
-    width:1000px;
+    width:1250px;
 }
 
 .box p{
@@ -145,24 +180,24 @@ a:hover::after{
 
 .salecontainer{
     display: flex;
-    position: relative;
-    left:13%;
+    margin-left: auto;
+    margin-right: auto;
     text-align: center; 
     max-width: 1000px;
 }
 
 .highlightcontainer{
     display: flex;
-    position: relative;
-    left:13%;
+    margin-left: auto;
+    margin-right: auto;
     text-align: center; 
     max-width: 1000px;
 
 }
 .highlightcontainer2{
     display: flex;
-    position: relative;
-    left:13%;
+    margin-left: auto;
+    margin-right: auto;
     text-align: center; 
     max-width: 1000px;
 
@@ -498,6 +533,8 @@ ul{
     
 }
 
+
+
 li a{
     background-color: rgb(255, 255, 255);
     margin-left: 35px;
@@ -515,6 +552,15 @@ li a:hover{
     color: #738EA9;
 }
 
+  a::after{
+        display:none;
+    
+    }
+    
+    a:hover::after{
+        display:none;
+    
+    }
 
 
 h1.toptitle{
@@ -544,29 +590,6 @@ h1.middletitle{
     color: white;
     width:1024px;
   
-}
-a {
-    position: relative;
-    color: #738EA9;
-  }
-
-a::after{
-    content: '';
-    position: absolute;
-    width: 100%;
-    transform: scaleX(0);
-    height: 2px;
-    bottom: 0;
-    left: 0;
-    background-color: #4c6986;
-    transform-origin: bottom right;
-    transition: transform 0.25s ease-out
-
-}
-
-a:hover::after{
-    transform: scaleX(1);
-    transform-origin: bottom left;
 }
 
 

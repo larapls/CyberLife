@@ -35,31 +35,41 @@ body{
 ul{
     list-style: none;
     position: absolute;
+    margin-left: 50%;
+    margin-right: auto;
+    margin-top: 5px;
     display: flex;
-    padding: auto;
-    right:0;
-    margin-right:70px;
-    margin-top:35px;
-    font-size: 10px;
+    padding: 30px;
+    padding-right:0px;
+    margin-top:0px;
+    width:810px;
+    height:20px;
+
     
 }
 
 li a{
     background-color: rgb(255, 255, 255);
-    margin-left: 35px;
-    padding: 10px;
     padding-left: 40px;
     padding-right: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     text-align: center;
     text-decoration: none;
+    font-size: 10px;
     color: #000;
     letter-spacing: 2px;
+    margin-left: 28px;;
+    margin-right: auto;
+   
+   
 }
 
 li a:hover{
     background-color: rgb(255, 255, 255);
     color: #738EA9;
 }
+
 
 a {
     position: relative;
@@ -85,6 +95,19 @@ a:hover::after{
     transform-origin: bottom left;
 }
 
+main{
+    height:890px;
+    text-align: center;
+      letter-spacing: 1px;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top:auto;
+      width:1080px;
+
+     
+}
+  
+
 
 h1.toptitle{
     text-align: center;
@@ -98,13 +121,14 @@ hr.topline{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width:50%
+    width:65%;
 }
 
 .callcontainer{
     display: flex;
     position: relative;
-    left:25%;
+     margin-left: auto;
+    margin-right: auto;
     
     width:600px;
 }
@@ -112,14 +136,16 @@ hr.topline{
 p.callus{
     font-size:50px;
     position: relative;
+    margin-left: auto;
+    margin-right: auto;
     margin-top:20px;
 }
 
 p.world{
     position: relative;
-    left:35%;
+    margin-left: auto;
+    margin-right: auto;
     color: rgb(236, 0, 0);
-    top:0%;
     width:150px;
 }
 
@@ -133,9 +159,11 @@ h2{
 }
 
 .box{
-    width:400px;
+    width:700px;
     position: relative;
-    left:25%;
+    text-align: justify;
+    margin-left: auto;
+    margin-right: auto;
     margin-bottom:50px;
    
 }
@@ -144,9 +172,10 @@ h2{
 .visitcontainer{
     display: flex;
     position: relative;
-    left:25%;
+    margin-left: auto;
+    margin-right: auto;
    
-    width:600px;
+    width:700px;
 }
 
 img.call{
@@ -159,6 +188,7 @@ p.visitus{
     position: relative;
     margin-top:50px;
     font-weight: bolder;
+    width:700px;
 
 }
 

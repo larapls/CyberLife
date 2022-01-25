@@ -16,7 +16,6 @@ body{
     font-size: 12px;
        
 }
-
 .menuheader{
     height: 80px;
     background-color: #738EA9;
@@ -35,31 +34,65 @@ body{
 ul{
     list-style: none;
     position: absolute;
+    margin-left: 54%;
+    margin-right: auto;
+    margin-top: 5px;
     display: flex;
-    padding: auto;
-    right:0;
-    margin-right:70px;
-    margin-top:35px;
-    font-size: 10px;
+    padding: 30px;
+    padding-right:0px;
+    margin-top:0px;
+    width:810px;
+    height:20px;
+    
     
 }
 
 li a{
     background-color: rgb(255, 255, 255);
-    margin-left: 35px;
-    padding: 10px;
     padding-left: 40px;
     padding-right: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     text-align: center;
     text-decoration: none;
+    font-size: 10px;
     color: #000;
     letter-spacing: 2px;
+    margin-left: 28px;;
+    margin-right: auto;
+   
+   
 }
 
 li a:hover{
     background-color: rgb(255, 255, 255);
     color: #738EA9;
 }
+
+a {
+    position: relative;
+    color: #738EA9;
+  }
+
+a::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #4c6986;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out
+
+}
+
+a:hover::after{
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
 
 
 a {
@@ -85,6 +118,7 @@ a:hover::after{
     transform: scaleX(1);
     transform-origin: bottom left;
 }
+
 
 h1.toptitle{
 
@@ -127,7 +161,7 @@ hr.topline{
 .colorpalette{
     margin-top:5px;
     display: block;
-    margin-left: 80%;
+    margin-left: 73%;
     margin-right: auto;
     width:150px;
 }
@@ -137,25 +171,25 @@ h3.androidmodel{
     font-size:30px;
     font-style: normal;
     line-height: 23px;
-    position: relative;
-    left:12%;
-    width:1000px;
+    margin-left: auto;
+    margin-right: auto;
+    width:1250px;
 }
 h1.meetandroid{
     font-size:70px;
     margin-left: 0px;
     line-height: 83px;
-   position: relative;
-   left:12%;
-     width:1000px;
+    margin-left: auto;
+    margin-right: auto;
+    width:1250px;
 }
 .box{
     text-align: center;
     letter-spacing: 1px;
-    position: relative;
-    left:12%;
+    margin-left: auto;
+    margin-right: auto;
     margin-top:30px;
-    width:1000px;
+    width:1250px;
 }
 
 .box p{
@@ -198,55 +232,49 @@ footer{
     }
 
     .menuheader{
-        height: 155px;
+        height: 80px;
         background-color: #738EA9;
+        display: flex;
+        margin: 0;
         
     }
     
     .headerlogo{
-        height: 85px;
-        width: 85px;
-        position:relative;
-        left: 80%;
+        height: 65px;
+        width: 60px;
+        margin-left: 30px;
         padding: 6px;
-       
     }
     
     ul{
-      font-size: 11px;
-      position: relative;
-      left:-47%;
-      top:53%;
-     
+        list-style: none;
+        position: absolute;
+        display: flex;
+        padding: auto;
+        right:0;
+        margin-right:70px;
+        margin-top:35px;
+        font-size: 10px;
+        width:2090px;
+        
     }
     
     li a{
         background-color: rgb(255, 255, 255);
-        margin-left: 19px;
-        padding:4px;
+        margin-left: 35px;
+        padding: 10px;
+        padding-left: 40px;
+        padding-right: 40px;
+        text-align: center;
         text-decoration: none;
         color: #000;
         letter-spacing: 2px;
-        
     }
     
     li a:hover{
         background-color: rgb(255, 255, 255);
         color: #738EA9;
-    }
-    
-    
-    a::after{
-        display:none;
-        width: 30px;
-    
-    }
-    
-    a:hover::after{
-        display:none;
-        width: 30px;
-    
-    }
+    }  
 
 
     
@@ -353,7 +381,6 @@ footer{
     .menuheader{
         height: 130px;
         background-color: #738EA9;
-        display: flex;
         
     }
     
@@ -370,8 +397,9 @@ footer{
         position: absolute;
         display: flex;
         padding: auto;
+        right:0;
         margin-right:70px;
-        margin-top:65px;
+        margin-top:35px;
         font-size: 10px;
         
     }
@@ -399,24 +427,15 @@ footer{
         color: #738EA9;
       }
     
-    a::after{
-        content: '';
-        position: absolute;
-        width: 100%;
-        transform: scaleX(0);
-        height: 2px;
-        bottom: 0;
-        left: 0;
-        background-color: #4c6986;
-        transform-origin: bottom right;
-        transition: transform 0.25s ease-out
-    
-    }
-    
-    a:hover::after{
-        transform: scaleX(1);
-        transform-origin: bottom left;
-    }
+        a::after{
+            display:none;
+        
+        }
+        
+        a:hover::after{
+            display:none;
+        
+        }
     
     h1.toptitle{
     
@@ -453,7 +472,7 @@ footer{
         display: block;
         margin-left: auto;
         margin-right: auto;
-        width:1024px;
+        width:1000px;
     }
     .colorpalette{
         margin-top:5px;
@@ -485,9 +504,10 @@ footer{
         text-align: center;
         letter-spacing: 1px;
         position: relative;
-        left:10%;
+        left:5%;
         margin-top:30px;
         width:800px;
+        
     
     }
     
