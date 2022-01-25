@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=News+Cycle&display=swap');
+
 :root{
     --primary-color:#738EA9;
     --secondary-color: #000;
@@ -20,7 +21,6 @@ body{
     height: 80px;
     background-color: #738EA9;
     display: flex;
-    margin: 0;
     
 }
 
@@ -29,12 +29,14 @@ body{
     width: 60px;
     margin-left: 30px;
     padding: 6px;
+    
+
 }
 
 ul{
     list-style: none;
     position: absolute;
-    margin-left: 54%;
+    margin-left: 50%;
     margin-right: auto;
     margin-top: 5px;
     display: flex;
@@ -43,7 +45,6 @@ ul{
     margin-top:0px;
     width:810px;
     height:20px;
-    
     
 }
 
@@ -68,6 +69,7 @@ li a:hover{
     background-color: rgb(255, 255, 255);
     color: #738EA9;
 }
+
 
 a {
     position: relative;
@@ -392,28 +394,46 @@ footer{
         margin-top:28px;
     }
     
+    .headerlogo{
+        height: 65px;
+        width: 60px;
+        margin-left: 30px;
+        padding: 6px;
+        
+    
+    }
+    
     ul{
         list-style: none;
         position: absolute;
+        margin-left: 50%;
+        margin-right: auto;
+        margin-top: 5px;
         display: flex;
-        padding: auto;
-        right:0;
-        margin-right:70px;
-        margin-top:35px;
-        font-size: 10px;
+        padding: 30px;
+        padding-right:0px;
+        margin-top:0px;
+        width:810px;
+        height:20px;
+        
         
     }
     
     li a{
         background-color: rgb(255, 255, 255);
-        margin-left: 35px;
-        padding: 10px;
         padding-left: 40px;
         padding-right: 40px;
+        padding-top: 10px;
+        padding-bottom: 10px;
         text-align: center;
         text-decoration: none;
+        font-size: 10px;
         color: #000;
         letter-spacing: 2px;
+        margin-left: 28px;;
+        margin-right: auto;
+       
+       
     }
     
     li a:hover{
