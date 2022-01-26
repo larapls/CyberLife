@@ -130,8 +130,7 @@ hr.topline{
     position: relative;
      margin-left: auto;
     margin-right: auto;
-    
-    width:600px;
+    width:700px;
 }
 
 p.callus{
@@ -152,7 +151,7 @@ p.world{
 
 h2{
     font-size:50px;
-    margin-left:40px;
+    margin-left:10px;
     position: relative;
     margin-top:20px;
     
@@ -175,13 +174,11 @@ h2{
     position: relative;
     margin-left: auto;
     margin-right: auto;
-   
     width:700px;
 }
 
 img.call{
     height:110px;
-   
 }
 
 p.visitus{
