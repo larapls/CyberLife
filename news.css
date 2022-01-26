@@ -218,222 +218,60 @@ footer{
     font-weight: lighter;
 }
 
-@media screen and (max-width: 360px) {
-
-    body{
-        background-image: url("background2.png");
-        background-repeat:repeat;
-        font-family: 'News Cycle', sans-serif;
-        font-size: 12px;
-        width:360px;
-           
-    }
-
-    .newsmain{
-        width:360px;
-    }
-
-    .menuheader{
-        height: 80px;
-        background-color: #738EA9;
-        display: flex;
-        margin: 0;
-        
-    }
-    
-    .headerlogo{
-        height: 65px;
-        width: 60px;
-        margin-left: 30px;
-        padding: 6px;
-    }
-    
-    ul{
-        list-style: none;
-        position: absolute;
-        display: flex;
-        padding: auto;
-        right:0;
-        margin-right:70px;
-        margin-top:35px;
-        font-size: 10px;
-        width:2090px;
-        
-    }
-    
-    li a{
-        background-color: rgb(255, 255, 255);
-        margin-left: 35px;
-        padding: 10px;
-        padding-left: 40px;
-        padding-right: 40px;
-        text-align: center;
-        text-decoration: none;
-        color: #000;
-        letter-spacing: 2px;
-    }
-    
-    li a:hover{
-        background-color: rgb(255, 255, 255);
-        color: #738EA9;
-    }  
-
-
-    
-    h1.middletitle{
-        text-align: center;
-        font-size:40px;
-        margin-bottom: 0px;
-        margin-top:30px;
-      
-        
-    }
-    
-    .topline{
-        width: 350px;
-        position: relative;
-        text-align: center;
-       
-    }
-    
-    
-    .ourandroids{
-        position: relative;
-        margin-bottom:60px ;
-        width:100px;
-        
-    }
-    .andriodprof{
-        margin-top:40px;
-        position: relative;
-        width:359px;
-        
-    }
-    .colorpalette{
-        margin-top:5px;
-        position: relative;
-        left:70%;
-        width:100px;
-       
-    }
-    
-    h3.androidmodel{
-        margin-left: 0px;
-        font-size:20px;
-        font-style: normal;
-        line-height: 23px;
-        position: relative;
-        left:2%;
-        width:355px;
-       
-    }
-    h1.meetandroid{
-       font-size:40px;
-       line-height: 40px;
-       position: relative;
-       left:2%;
-       margin-bottom:10px;
-      
-       width:355px;
-
-    }
-    .box{
-        text-align:justify;
-        letter-spacing: 1px;
-        position: relative;
-        left:3%;
-        margin-top:10px;
-        width:330px;
-    }
-    
-    .box p{
-        text-align: justify;
-    }
-    
-    .cookies{
-        font-size: 10px;
-        letter-spacing: 3px;
-        margin-top:10px;
-    }
-    
-    footer{
-        height: 80px;
-        background-color: #738EA9;
-        text-align: center;
-        position: relative;
-        padding-top: 10px;
-        color: #fff;
-        font-size: 10px;
-        letter-spacing: 2px;
-        font-weight: lighter;
-    }
-
-}
-
-@media screen and (max-width: 1024px) {
+/*mobile 360*/
+@media(min-width: 300px) and (max-width: 700px){
 
     body{
         background-image: url("./pics/background2.png");
-        background-repeat:repeat;
+        background-repeat: repeat;
         font-family: 'News Cycle', sans-serif;
-        font-size: 18px;
-           
+       
     }
+    
     
     .menuheader{
-        height: 130px;
+        height: 90px;
         background-color: #738EA9;
+        display: flex;
         
     }
     
     .headerlogo{
-        height: 65px;
-        width: 60px;
-        margin-left: 40px;
-        padding: 6px;
-        margin-top:28px;
-    }
-    
-    .headerlogo{
-        height: 65px;
-        width: 60px;
-        margin-left: 30px;
-        padding: 6px;
-        
+       display:none;
     
     }
     
     ul{
         list-style: none;
         position: absolute;
-        margin-left: 50%;
+        margin-left: auto;
         margin-right: auto;
-        margin-top: 5px;
+        margin-top: auto;
         display: flex;
-        padding: 30px;
+        padding: 5px;
         padding-right:0px;
-        margin-top:0px;
-        width:810px;
-        height:20px;
-        
+        margin-top:43px;
+        width:350px;
+        height:30px;
+
         
     }
     
     li a{
         background-color: rgb(255, 255, 255);
-        padding-left: 40px;
-        padding-right: 40px;
-        padding-top: 10px;
-        padding-bottom: 10px;
+        padding-left: 10px;
+        padding-right: 8px;
+        padding-top: 8px;
+        padding-bottom: 8px;
         text-align: center;
         text-decoration: none;
         font-size: 10px;
         color: #000;
         letter-spacing: 2px;
-        margin-left: 28px;;
+        margin-left: 10px;
         margin-right: auto;
-       
-       
+        margin-top:5px;
+        
     }
     
     li a:hover{
@@ -447,20 +285,31 @@ footer{
         color: #738EA9;
       }
     
-        a::after{
-            display:none;
-        
-        }
-        
-        a:hover::after{
-            display:none;
-        
-        }
+    a::after{
+        content: '';
+        position: absolute;
+        width: 100%;
+        transform: scaleX(0);
+        height: 2px;
+        bottom: 0;
+        left: 0;
+        background-color: #4c6986;
+        transform-origin: bottom right;
+        transition: transform 0.25s ease-out
+    
+    }
+    
+    a:hover::after{
+        transform: scaleX(1);
+        transform-origin: bottom left;
+    }
+    
+    
     
     h1.toptitle{
-    
+
         text-align: center;
-        font-size:80px;
+        font-size:30px;
         margin-top: 100px;
         margin-bottom: 5px;
       
@@ -468,78 +317,84 @@ footer{
     
     h1.middletitle{
         text-align: center;
-        font-size:80px;
+        font-size:50px;
         margin-bottom: 0px;
         margin-top:100px;
-        
     }
     
     hr.topline{
         display: block;
         margin-left: auto;
         margin-right: auto;
-        width:50%
+        width:360;
+        width:50%;
     }
     
     
     .ourandroids{
         position: relative;
         margin-bottom:60px ;
-        width:1024px;
+        width:360px;
+       
     }
     .andriodprof{
         margin-top:70px;
         display: block;
         margin-left: auto;
         margin-right: auto;
-        width:1000px;
+        width:360px;
     }
     .colorpalette{
         margin-top:5px;
         display: block;
-        margin-left: 80%;
+        margin-left: 70%;
         margin-right: auto;
-        width:150px;
+        width:100px;
+        
     }
     
     h3.androidmodel{
-        margin-left: 0px;
-        font-size:30px;
+        font-size:20px;
         font-style: normal;
-        line-height: 23px;
-        position: relative;
-        left:10%;
-        width:800px;
+        line-height: 13px;
+        margin-left: auto;
+        margin-right: auto;
+        width:350px;
+       
     }
     h1.meetandroid{
-        font-size:70px;
+        font-size:50px;
         margin-left: 0px;
         line-height: 83px;
-       position: relative;
-       left:10%;
-         width:800px;
-       
+        margin-left: auto;
+        margin-right: auto;
+        width:350px;
+      
     }
     .box{
         text-align: center;
         letter-spacing: 1px;
-        position: relative;
-        left:5%;
+        margin-left: auto;
+        margin-right: auto;
         margin-top:30px;
-        width:800px;
-        
-    
+        padding-left: 10px;
+        padding-right: 10px;
+        width:330px;
+       
     }
     
     .box p{
         text-align: justify;
     }
+
     
     .cookies{
         font-size: 7px;
         letter-spacing: 3px;
         margin-top:5px;
+        
     }
+    
     footer{
         height: 40px;
         background-color: #738EA9;
@@ -551,5 +406,194 @@ footer{
         letter-spacing: 2px;
         font-weight: lighter;
     }
+}
 
+/*Ipad*/
+@media(min-width: 701px) and (max-width: 1024px){
+
+    body{
+        background-image: url("./pics/background2.png");
+        background-repeat: repeat;
+        font-family: 'News Cycle', sans-serif;
+       
+    }
+    
+    
+    .menuheader{
+        height: 90px;
+        background-color: #738EA9;
+        display: flex;
+        
+    }
+    
+    .headerlogo{
+      height:80px;
+      width:70px;
+    
+    }
+    
+    ul{
+        list-style: none;
+        position: absolute;
+        margin-left: 43%;
+        margin-right: auto;
+        margin-top: auto;
+        display: flex;
+        padding: 5px;
+        padding-right:0px;
+        margin-top:43px;
+        width:350px;
+        height:30px;
+
+
+        
+    }
+    
+    li a{
+        background-color: rgb(255, 255, 255);
+        padding-left: 10px;
+        padding-right: 8px;
+        padding-top: 8px;
+        padding-bottom: 6px;
+        text-align: center;
+        text-decoration: none;
+        font-size: 10px;
+        color: #000;
+        letter-spacing: 2px;
+        margin-left: 10px;
+        margin-right: auto;
+        margin-top:5px;
+        
+    }
+    
+    li a:hover{
+        background-color: rgb(255, 255, 255);
+    }
+    
+    a {
+        position: relative;
+        color: #738EA9;
+      }
+    
+    a::after{
+        content: '';
+        position: absolute;
+        width: 100%;
+        transform: scaleX(0);
+        height: 2px;
+        bottom: 0;
+        left: 0;
+        background-color: #4c6986;
+        transform-origin: bottom right;
+        transition: transform 0.25s ease-out
+    
+    }
+    
+    a:hover::after{
+        transform: scaleX(1);
+        transform-origin: bottom left;
+    }
+    
+    
+    
+    h1.toptitle{
+
+        text-align: center;
+        font-size:60px;
+        margin-top: 100px;
+        margin-bottom: 5px;
+      
+    }
+    
+    h1.middletitle{
+        text-align: center;
+        font-size:60px;
+        margin-bottom: 0px;
+        margin-top:100px;
+    }
+    
+    hr.topline{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width:700px;
+        width:50%;
+    }
+    
+    
+    .ourandroids{
+        position: relative;
+        margin-bottom:60px ;
+        width:690px;
+       
+    }
+    .andriodprof{
+        margin-top:70px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width:701px;
+    }
+    .colorpalette{
+        margin-top:5px;
+        display: block;
+        margin-left: 80%;
+        margin-right: auto;
+        width:100px;
+        
+    }
+    
+    h3.androidmodel{
+        font-size:20px;
+        font-style: normal;
+        line-height: 13px;
+        margin-left: auto;
+        margin-right: auto;
+        width:690px;
+       
+    }
+    h1.meetandroid{
+        font-size:50px;
+        margin-left: 0px;
+        line-height: 83px;
+        margin-left: auto;
+        margin-right: auto;
+        width:690px;
+      
+    }
+    .box{
+        text-align: center;
+        letter-spacing: 1px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top:30px;
+        padding-left: 10px;
+        padding-right: 10px;
+        width:680px;
+       
+    }
+    
+    .box p{
+        text-align: justify;
+    }
+
+    
+    .cookies{
+        font-size: 7px;
+        letter-spacing: 3px;
+        margin-top:5px;
+        
+    }
+    
+    footer{
+        height: 40px;
+        background-color: #738EA9;
+        text-align: center;
+        position: relative;
+        padding-top: 5px;
+        color: #fff;
+        font-size: 10px;
+        letter-spacing: 2px;
+        font-weight: lighter;
+    }
 }

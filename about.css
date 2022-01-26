@@ -149,197 +149,95 @@ footer{
     font-weight: lighter;
 }
 
-@media screen and (max-width: 360px) {
+/*mobile*/
+@media(min-width: 300px) and (max-width: 700px){
 
-    .menuheader{
-        height: 155px;
-        background-color: #738EA9;
-        
-    }
-    
-    .headerlogo{
-        height: 85px;
-        width: 85px;
-        position:relative;
-        left: 80%;
-        padding: 6px;
-    }
-    
-    ul{
-      font-size: 11px;
-      position: relative;
-      left:-47%;
-      top:53%;
-    }
-    
-    li a{
-        background-color: rgb(255, 255, 255);
-        margin-left: 19px;
-        padding:4px;
-        text-decoration: none;
-        color: #000;
-        letter-spacing: 2px;
-    }
-    
-    li a:hover{
-        background-color: rgb(255, 255, 255);
-        color: #738EA9;
-    }
-    
-    
-    a::after{
-        display:none;
-    
-    }
-    
-    a:hover::after{
-        display:none;
-    
-    }
-
-    
-h1.title{
-    text-align: center;
-    font-size:40px;
-    margin-top: 40px;
-    margin-bottom: 5px;
-  
-}
-
-.aboutus{
-    position: relative;
-    margin-bottom:30px ;
-    width:359px;
-}
-
-.container{
-    width:355px;
-    display: block;
-    position: relative;
-    left:3%;
-    border-top: 1px solid #000;
-   padding-top:20px;
-}
-
-.parag{
-    width:330px;
-    margin-right:80px;
-    text-align: justify;
-    margin-bottom: 40px;
-}
-
-.kamski{
-    text-align: center;
-    font-size: 12px;
-    font-weight: bolder;
-    width:350px;
-}
-
-.founder{
-    margin-left:8px;
-    width:300px;
-}
-
-img.signature{
-    height:180px;
-    width:300px;
-    position: relative;
-    left:8%;
-
-}
-    
-    
-    h2{
-       position:relative;
-       text-align: center;
-        font-size: 30px;
-        top: 13%;
-        left:2%;
-        font-family: 'Gotham Light', sans-serif;
-        text-shadow: -3px -3px #738EA9;
-        
-      
-    }
-
-    
-    .cookies{
-        font-size: 10px;
-        letter-spacing: 3px;
-        margin-top:10px;
-    }
-    
-    footer{
-        height: 80px;
-        background-color: #738EA9;
-        text-align: center;
-        position: relative;
-        padding-top: 10px;
-        color: #fff;
-        font-size: 10px;
-        letter-spacing: 2px;
-        font-weight: lighter;
-    }
-
-}
-
-@media screen and (max-width: 1024px) {
- 
     body{
         background-image: url("./pics/background2.png");
         background-repeat: repeat;
         font-family: 'News Cycle', sans-serif;
-        font-size: 18px;
+       
     }
     
+    
     .menuheader{
-        height: 130px;
+        height: 90px;
         background-color: #738EA9;
         display: flex;
         
     }
     
     .headerlogo{
-        height: 65px;
-        width: 60px;
-        margin-left: 40px;
-        padding: 6px;
-        margin-top:28px;
+       display:none;
+    
     }
     
     ul{
         list-style: none;
         position: absolute;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: auto;
         display: flex;
-        padding: auto;
-        margin-right:70px;
-        margin-top:65px;
-        font-size: 10px;
+        padding: 5px;
+        padding-right:0px;
+        margin-top:43px;
+        width:350px;
+        height:30px;
+
         
     }
     
     li a{
         background-color: rgb(255, 255, 255);
-        margin-left: 35px;
-        padding: 10px;
-        padding-left: 40px;
-        padding-right: 40px;
+        padding-left: 10px;
+        padding-right: 8px;
+        padding-top: 8px;
+        padding-bottom: 8px;
         text-align: center;
         text-decoration: none;
+        font-size: 10px;
         color: #000;
         letter-spacing: 2px;
+        margin-left: 10px;
+        margin-right: auto;
+        margin-top:5px;
+        
     }
     
     li a:hover{
         background-color: rgb(255, 255, 255);
         color: #738EA9;
     }
-
-
     
-
+    
+    a {
+        position: relative;
+        color: #738EA9;
+      }
+    
+    a::after{
+        content: '';
+        position: absolute;
+        width: 100%;
+        transform: scaleX(0);
+        height: 2px;
+        bottom: 0;
+        left: 0;
+        background-color: #4c6986;
+        transform-origin: bottom right;
+        transition: transform 0.25s ease-out
+    
+    }
+    
+    a:hover::after{
+        transform: scaleX(1);
+        transform-origin: bottom left;
+    }
+    
     h1.title{
         text-align: center;
-        font-size:80px;
+        font-size:50px;
         margin-top: 100px;
         margin-bottom: 5px;
       
@@ -358,34 +256,248 @@ img.signature{
         margin-left: auto;
         margin-right: auto;
         margin-bottom:30px ;
-        width:1024px;
+        width:360px;
     }
     
     .container{
-        width:900px;
-        display: flex;
-        position: relative;
-        left:5%;
+        width:350px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top:30px;
+        border-top: 1px solid #000;
        padding-top:20px;
+      
     }
     
     .parag{
-        width:450px;
-        margin-right:90px;
-        margin-bottom:40px;
+        width:340px;
+        margin-right:auto;
+        margin-left: auto;
+        text-align: justify;
+        margin-bottom: 20px;
+        
     }
     
     .kamski{
         text-align: center;
         font-size: 12px;
         font-weight: bolder;
+        margin-left: auto;
+        margin-right: auto;
+     
     }
-    
     img.signature{
         height:180px;
         width:300px;
         position: relative;
-        left:7%;
+        margin-left:auto;
+        margin-bottom: 26px;
+      
+    }
+
+    img.founder{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+      
+    }
+    
+    
+    .cookies{
+        font-size: 7px;
+        letter-spacing: 3px;
+        margin-top:5px;
+        
+    }
+    
+    footer{
+        height: 40px;
+        background-color: #738EA9;
+        text-align: center;
+        position: relative;
+        padding-top: 5px;
+        color: #fff;
+        font-size: 10px;
+        letter-spacing: 2px;
+        font-weight: lighter;
+    }
+}
+
+/*Ipad*/
+@media(min-width: 701px) and (max-width: 1024px){
+
+    body{
+        background-image: url("./pics/background2.png");
+        background-repeat: repeat;
+        font-family: 'News Cycle', sans-serif;
+       
+    }
+    
+    
+    .menuheader{
+        height: 90px;
+        background-color: #738EA9;
+        display: flex;
+        
+    }
+    
+    .headerlogo{
+      height:80px;
+      width:70px;
     
     }
-}    
+    
+    ul{
+        list-style: none;
+        position: absolute;
+        margin-left: 43%;
+        margin-right: auto;
+        margin-top: auto;
+        display: flex;
+        padding: 5px;
+        padding-right:0px;
+        margin-top:43px;
+        width:350px;
+        height:30px;
+
+
+        
+    }
+    
+    li a{
+        background-color: rgb(255, 255, 255);
+        padding-left: 10px;
+        padding-right: 8px;
+        padding-top: 8px;
+        padding-bottom: 6px;
+        text-align: center;
+        text-decoration: none;
+        font-size: 10px;
+        color: #000;
+        letter-spacing: 2px;
+        margin-left: 10px;
+        margin-right: auto;
+        margin-top:5px;
+        
+    }
+    
+    li a:hover{
+        background-color: rgb(255, 255, 255);
+        color: #738EA9;
+    }
+    
+    
+    
+    a {
+        position: relative;
+        color: #738EA9;
+      }
+    
+    a::after{
+        content: '';
+        position: absolute;
+        width: 100%;
+        transform: scaleX(0);
+        height: 2px;
+        bottom: 0;
+        left: 0;
+        background-color: #4c6986;
+        transform-origin: bottom right;
+        transition: transform 0.25s ease-out
+    
+    }
+    
+    a:hover::after{
+        transform: scaleX(1);
+        transform-origin: bottom left;
+    }
+    
+    h1.title{
+        text-align: center;
+        font-size:60px;
+        margin-top: 100px;
+        margin-bottom: 5px;
+      
+    }
+    
+    hr.topline{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width:50%;
+        margin-bottom:20px;
+    }
+    
+    .aboutus{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom:30px ;
+        width:701px;
+    }
+    
+    .container{
+        width:690px;
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top:30px;
+        border-top: 1px solid #000;
+       padding-top:20px;
+      
+    }
+    
+    .parag{
+        width:340px;
+        margin-right:auto;
+        margin-left: auto;
+        text-align: justify;
+        margin-bottom: 20px;
+        
+    }
+    
+    .kamski{
+        text-align: center;
+        font-size: 12px;
+        font-weight: bolder;
+        margin-left: auto;
+        margin-right: auto;
+     
+    }
+    img.signature{
+        height:180px;
+        width:300px;
+        position: relative;
+        margin-left:auto;
+        margin-bottom: 26px;
+      
+    }
+
+    img.founder{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+      
+    }
+    
+    
+    .cookies{
+        font-size: 7px;
+        letter-spacing: 3px;
+        margin-top:5px;
+        
+    }
+    
+    footer{
+        height: 40px;
+        background-color: #738EA9;
+        text-align: center;
+        position: relative;
+        padding-top: 5px;
+        color: #fff;
+        font-size: 10px;
+        letter-spacing: 2px;
+        font-weight: lighter;
+    }
+}
