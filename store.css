@@ -596,8 +596,8 @@ h1.middletitle{
         background-color: rgb(255, 255, 255);
         color: #738EA9;
     }
-    
-    
+     
+   
     a {
         position: relative;
         color: #738EA9;
@@ -621,6 +621,7 @@ h1.middletitle{
         transform: scaleX(0);
         transform-origin: bottom left;
     }
+
 
     
 h1.toptitle{
