@@ -114,7 +114,7 @@ main{
    width:295px;
     height:305px;
     position: relative;
- top: 27%;
+ top: 29%;
   right:43%;
  
   
@@ -366,7 +366,8 @@ footer{
         font-weight:bolder;
         font-family: 'News Cycle', sans-serif;
         letter-spacing: 1px;
-        top:13%
+        top:15%;
+        left:auto;
         
     }
     
