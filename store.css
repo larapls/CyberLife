@@ -97,15 +97,13 @@ a:hover::after{
 }
 
 
-
-
 h1.toptitle{
     text-align: center;
     font-size:80px;
     margin-top: 70px;
     margin-bottom: 0px;
     line-height: 90px;
-    
+    margin-top:100px;
    
 }
 
@@ -114,7 +112,7 @@ hr.topline{
     margin-left: auto;
     margin-right: auto;
     width:50%;
-    margin-bottom:20px;
+    margin-bottom:100px;
 }
 
 h1.middletitle{
@@ -130,7 +128,7 @@ h1.middletitle{
 
 .ourandroids{
     margin-bottom:60px ;
-    width:1920px;
+    width:1565px;
     display: block;
     margin-left: auto;
     margin-right: auto;
