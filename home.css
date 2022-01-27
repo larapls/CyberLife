@@ -314,8 +314,10 @@ footer{
         width:110px;
         height:120px;
         position: relative;
-        top:10%;
-        left: 0%;
+        margin-top:auto;
+        margin-left: auto;
+        top:16%;
+        left:2%
     
       
     }
@@ -331,8 +333,10 @@ footer{
         font-weight: lighter;
         letter-spacing: 1px;
        line-height: 40px;
-       top:10%;
-       left: auto;
+       top:20%;
+       margin-top:auto;
+       margin-left: auto;
+
       
     }
     
@@ -347,8 +351,9 @@ footer{
       align-items: center;
         font-family: 'Gotham Light', sans-serif;
         text-shadow: -2px -1px #738EA9;
-        top:8%;
-        left: auto;
+        margin-top:auto;
+        margin-left: auto;
+        top:20%;
     
         
       
@@ -366,8 +371,9 @@ footer{
         font-weight:bolder;
         font-family: 'News Cycle', sans-serif;
         letter-spacing: 1px;
-        top:15%;
-        left: auto;
+        margin-left: auto;
+        margin-top: auto;
+        top:22%;
 
         
     }
