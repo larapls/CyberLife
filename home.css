@@ -311,12 +311,11 @@ footer{
     }
     
     .mainlogo{
-        width:195px;
-        height:205px;
+        width:100px;
+        height:120px;
         position: relative;
         top:10%;
-        left: 0%;
-     
+        left: 50%;
     
       
     }
@@ -367,7 +366,7 @@ footer{
         font-weight:bolder;
         font-family: 'News Cycle', sans-serif;
         letter-spacing: 1px;
-        top:10%;
+        top:15%;
         left: auto;
 
         
