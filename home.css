@@ -313,8 +313,8 @@ footer{
     .mainlogo{
         width:195px;
         height:205px;
-        position: absolute;
-        top:25%;
+        position: relative;
+        top:5%;
         left: auto;
      
     
@@ -326,13 +326,14 @@ footer{
         font-family: 'Quicksand Light', sans-serif;
         text-align: center;
         font-size: 40px;
-        position: absolute;
+        position: r;
         justify-content: center;
       align-items: center;
         font-weight: lighter;
         letter-spacing: 1px;
        line-height: 40px;
-       top:52%;
+       top:8%;
+       left: auto;
       
     }
     
@@ -342,12 +343,12 @@ footer{
        position:absolute;
        text-align: center;
         font-size: 30px;
-        position: absolute;
+        position: relative;
         justify-content: center;
       align-items: center;
         font-family: 'Gotham Light', sans-serif;
         text-shadow: -2px -1px #738EA9;
-        top:55%;
+        top:7%;
         left: auto;
     
         
@@ -361,12 +362,12 @@ footer{
         text-align: center;
         text-decoration: none;
         border: 2px solid #738EA9;
-        position: absolute;
+        position: relative;
         font-size: 20px;
         font-weight:bolder;
         font-family: 'News Cycle', sans-serif;
         letter-spacing: 1px;
-        top:57%;
+        top:10%;
         left: auto;
 
         
