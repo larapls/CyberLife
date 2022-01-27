@@ -313,9 +313,10 @@ footer{
     .mainlogo{
         width:195px;
         height:205px;
-        position: relative;
-      left:3%;
-      top:10%;
+        position: absolute;
+        left: 25%;
+        top:25%;
+     
     
       
     }
